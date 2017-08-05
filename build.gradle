@@ -5,6 +5,9 @@ buildscript {
 
     repositories {
         mavenLocal()
+        mavenCentral()
+        // or better:
+        jcenter()
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
